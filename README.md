@@ -44,5 +44,5 @@ mpv?.loadFile("/path/to/video.mkv")
 
 ## 环境要求
 
-- iOS 14.0+ / macOS 12.0+ / tvOS 17.0+
+- iOS 15.0+ / macOS 12.0+ / tvOS 17.0+
 - Swift 5.9+

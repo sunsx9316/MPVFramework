@@ -4,7 +4,7 @@ import PackageDescription
 let package = Package(
     name: "MPVFramework",
     platforms: [
-        .iOS(.v14),
+        .iOS(.v15),
         .macOS(.v12),
         .tvOS(.v17)
     ],
@@ -12,7 +12,7 @@ let package = Package(
         .library(name: "MPVFramework", type: .dynamic, targets: ["MPVFramework"])
     ],
     dependencies: [
-        .package(url: "https://github.com/mpvkit/MPVKit.git", from: "0.41.0")
+        .package(url: "https://github.com/mpvkit/MPVKit.git", from: "1.0.0")
     ],
     targets: [
         .target(
